@@ -1,10 +1,36 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "@alia-code/homepage",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Alia web development portal",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "homepage": "https://alia.ml",
+  "main": "./src/index.js",
+  "repository": "github:alia-code/homepage.git",
+  "bugs": "https://github.com/alia-code/homepage/issues",
+  "scripts": {
+    "up": "npm upgrade && npm prune && npm dedupe",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.16",
+    "@fortawesome/free-brands-svg-icons": "^5.8.0",
+    "@fortawesome/free-regular-svg-icons": "^5.8.0",
+    "@fortawesome/free-solid-svg-icons": "^5.8.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "axios": "^0.18.0",
+    "axios-retry": "^3.1.2",
+    "dotenv": "^7.0.0",
+    "dotenv-extended": "^2.4.0",
+    "flamework": "^3.1.6",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-tooltip": "^3.10.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0",
     "gatsby": "^2.2.2",
     "gatsby-image": "^2.0.34",
     "gatsby-plugin-manifest": "^2.0.24",
@@ -18,26 +44,28 @@
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0"
   },
-  "devDependencies": {
-    "prettier": "^1.16.4"
-  },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  "optionalDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-flowtype": "^3.4.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "stylelint": "^9.10.1",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-scss": "^3.5.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  "browserslist": [
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "author": {
+    "name": "Christhopher Lion",
+    "email": "christhopherleao@icloud.com",
+    "url": "https://lion.alia.ml"
   }
 }
