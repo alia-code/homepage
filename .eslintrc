@@ -3,7 +3,8 @@
   "extends": [
     "standard",
     "eslint:recommended",
-    "airbnb"
+    "airbnb",
+    "react-app"
   ],
   "plugins": ["standard", "import", "promise", "react", "jsx-a11y"],
   "settings": { "import/resolver": { "node": { "paths": ["./src"] } } },
