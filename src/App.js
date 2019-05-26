@@ -1,7 +1,8 @@
-import React, { memo } from 'react'
+import React, { memo } from 'react';
 
-import './app.css'
-import logo from './logo.png'
+import './app.css';
+import logo from './logo.png';
+import Footer from './components/Footer/Footer';
 
 const App = () => (
   <div className="App">
@@ -22,7 +23,8 @@ const App = () => (
         </a>
       </span>
     </header>
+    <Footer />
   </div>
-)
+);
 
-export default memo(App)
+export default memo(App);

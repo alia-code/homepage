@@ -1,0 +1,49 @@
+html,
+body {
+  color: white;
+  background-color: $base;
+  font-weight: 400;
+}
+
+// temporary fix for padding cards
+[contain], .contain, .container {
+  padding: 0 4%;
+}
+
+a.link:hover:not(.button) {
+  color: $alliance;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+h6 { font-size: 1rem; font-weight: 700; }
+
+.alert-info {
+  background-color: $alliance;
+  font-size: .8rem;
+  border-radius: $radius;
+}
+
+.dalaran { color: $pink; }
+
+.beta-tag {
+  padding: .1em .4em;
+  line-height: inherit;
+  font-size: 50%;
+  border-radius: .2em;
+  letter-spacing: 0;
+  color: $white7;
+  background-color: $dalaran;
+  vertical-align: top;
+}
+
+.pulse { animation: pulse 1.2s infinite; opacity: 1; }
+
+@keyframes pulse {
+  from { opacity: 1; }
+  30%  { opacity: 0; }
+  40%  { opacity: 0; }
+  to   { opacity: 1; }
+}
