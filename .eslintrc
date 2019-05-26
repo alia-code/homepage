@@ -14,7 +14,7 @@
     "node": true
   },
   "parserOptions": {
-    "ecmaVersion": 8,
+    "ecmaVersion": 2019,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true,
@@ -22,8 +22,6 @@
     }
   },
   "globals": {
-    "window": false,
-    "document": false,
-    "fetch": false
+    "fetch": "readonly"
   }
 }
