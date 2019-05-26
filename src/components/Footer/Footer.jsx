@@ -6,7 +6,7 @@ import logo from '../../images/logo.png';
 import { social, lastName } from '../../data/hero';
 
 const Footer = React.memo(() => (
-  <FooterStyled id="Footer" hide-print="">
+  <FooterStyled id="Footer" className="hide-print">
     <div className="contain row mobile-column footer" align="between stretch">
       <aside className="footer-alia">
         <img width="28" src={logo} alt="Logo Alia" />
@@ -22,7 +22,7 @@ const Footer = React.memo(() => (
       </aside>
 
       <article className="footer-hero">
-        <h6>Connect with {lastName[window.lang]}</h6>
+        <h6>Connect with {lastName.en}</h6>
         <ul
           className="column mobile-row"
           align="start end"

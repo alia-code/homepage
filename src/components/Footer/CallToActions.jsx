@@ -11,7 +11,7 @@ const CallToActions = () => (
 
     <div row="" align="center">
       {i18n.CallToActions.map(({ label, action }) => (
-        <Button key={action}>{label[window.lang]}</Button>
+        <Button key={action}>{label.en}</Button>
       ))}
     </div>
   </section>
