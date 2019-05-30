@@ -6,7 +6,13 @@
     "airbnb",
     "react-app"
   ],
-  "plugins": ["standard", "import", "promise", "react", "jsx-a11y"],
+  "plugins": [
+    "standard",
+    "import",
+    "promise",
+    "react",
+    "jsx-a11y"
+  ],
   "settings": { "import/resolver": { "node": { "paths": ["./src"] } } },
   "env": {
     "es6": true,
