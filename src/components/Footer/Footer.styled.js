@@ -13,12 +13,20 @@ export default styled('footer')`
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+`;
 
-  .footer-hero {
-    a { margin: .2rem .5rem }
+export const Links = styled.article`
+  text-align: right;
+  a { margin: .2rem .5rem }
 
-    @media ${mobile} {
-      margin-top: 2rem;
-    }
+  @media ${mobile} {
+    margin-top: 2rem;
+    text-align: center;
+  }
+`;
+
+export const CompanyInfo = styled.article`
+  @media ${mobile} {
+    text-align: center;
   }
 `;

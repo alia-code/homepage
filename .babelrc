@@ -1,3 +1,11 @@
 {
-  "presets": ["react-static/babel-preset.js"]
+  "plugins": [
+    ["babel-plugin-styled-components", {
+      "pure": true,
+      "transpileTemplateLiterals": true,
+    }]
+  ],
+  "presets": [
+    "react-static/babel-preset.js"
+  ]
 }

@@ -1,8 +1,8 @@
 import React, { memo } from 'react';
 
-import './app.css';
 import logo from './logo.png';
 import Footer from './components/Footer/Footer';
+import GlobalStyles from './GlobalStyles';
 
 const App = () => (
   <div className="App">
@@ -19,11 +19,12 @@ const App = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Christhopher Lion's profile
+          Christhopher Lion&apos;s profile
         </a>
       </span>
     </header>
     <Footer />
+    <GlobalStyles />
   </div>
 );
 
