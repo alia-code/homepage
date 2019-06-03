@@ -37,7 +37,7 @@ const Footer = React.memo(() => (
       </Layout>
     </Container>
 
-    <PoweredBy />
+    {PoweredBy}
   </FooterStyled>
 ));
 
