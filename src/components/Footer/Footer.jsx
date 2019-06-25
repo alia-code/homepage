@@ -1,15 +1,14 @@
 import React from 'react';
-import { Layout, Container } from 'flamework';
+import logo from 'images/logo.png';
+import { social, lastName } from 'data/hero';
 import PoweredBy from './PoweredBy';
 // import CallToActions from './CallToActions';
 import FooterStyled, * as S from './Footer.styled';
-import logo from '../../images/logo.png';
-import { social, lastName } from '../../data/hero';
 
 const Footer = React.memo(() => (
   <FooterStyled id="Footer" className="hide-print">
-    <Container>
-      <Layout className="footer" align="between stretch" mobileAlign="start center">
+    <div contain="">
+      <div className="row footer" align="between stretch" mobile-align="start center">
         <S.CompanyInfo>
           <img width="28" src={logo} alt="Logo Alia" />
 
@@ -26,16 +25,16 @@ const Footer = React.memo(() => (
         <S.Links>
           <h6>Connect with {lastName.en}</h6>
 
-          <Layout as="ul" column mobileRow align="start end" mobileAlign="around center">
+          <ul column mobile-row align="start end" mobile-align="around center">
             {Object.keys(social).map(key => (
               <a className="link" key={key} href={social[key].url}>
                 {social[key].name}
               </a>
             ))}
-          </Layout>
+          </ul>
         </S.Links>
-      </Layout>
-    </Container>
+      </div>
+    </div>
 
     {PoweredBy}
   </FooterStyled>

@@ -1,14 +1,22 @@
-// This file is used to configure:
-// - static-site generation
-// - Document shell (index.html)
-// - ...tons of other things!
-
-// Get started at httsp://react-static.js.org
+import path from 'path';
+// import axios from 'axios';
 
 export default {
-  maxThreads: 1, // Remove this when you start doing any static generation
+  getRoutes: async () => {
+    return [
+      { path: '/' },
+    ];
+  },
   plugins: [
-    'react-static-plugin-styled-components',
-    'react-static-plugin-sass',
+    require.resolve('react-static-plugin-styled-components'),
+    require.resolve('react-static-plugin-sass'),
+    [
+      require.resolve('react-static-plugin-source-filesystem'),
+      {
+        location: path.resolve('./src/pages'),
+      },
+    ],
+    require.resolve('react-static-plugin-reach-router'),
+    require.resolve('react-static-plugin-sitemap'),
   ],
 };
