@@ -2,6 +2,7 @@ import path from 'path';
 // import axios from 'axios';
 
 export default {
+  siteRoot: `https://${process.env.DOMAIN}/`,
   getRoutes: async () => {
     return [
       { path: '/' },
