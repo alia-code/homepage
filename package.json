@@ -38,7 +38,7 @@
     "styled-components": "4.3.2"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "1.10.2",
+    "babel-plugin-styled-components": "1.10.7",
     "dotenv": "8.0.0",
     "dotenv-extended": "2.4.0",
     "node-sass": "4.12.0",
