@@ -41,7 +41,7 @@
     "babel-plugin-styled-components": "1.10.7",
     "dotenv": "8.2.0",
     "dotenv-extended": "2.7.1",
-    "node-sass": "4.12.0",
+    "node-sass": "4.13.1",
     "prop-types": "15.7.2",
     "react-hot-loader": "4.11.1",
     "react-static-plugin-reach-router": "7.0.10",
