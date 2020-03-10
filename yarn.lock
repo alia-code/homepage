@@ -8639,10 +8639,10 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
-react-static-plugin-reach-router@7.0.10:
-  version "7.0.10"
-  resolved "https://registry.yarnpkg.com/react-static-plugin-reach-router/-/react-static-plugin-reach-router-7.0.10.tgz#0ebd8b914bbd4e3e4ca2b355ba6f837e9c6821a4"
-  integrity sha512-EJBflq0t6c8ldiakLyRqaht8hXx4FFc+zKrsoeHnBWzSq9SfmDjC9tdEKSC8twkqC7ypY4QmqWAiQsF3U15/Cw==
+react-static-plugin-reach-router@7.2.3:
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/react-static-plugin-reach-router/-/react-static-plugin-reach-router-7.2.3.tgz#0b991e347a64ee462cfa7b2b08d34bec56620a5b"
+  integrity sha512-OgOm7/3PjPCZD6/U++adNlzi8dJMn6Weig14l12w4TOWlWSI453Cv54bZH0N7ejUnFKwvrPS5mamP+FGCP6VUw==
 
 react-static-plugin-sass@7.2.2:
   version "7.2.2"
