@@ -2564,7 +2564,7 @@ check-types@^7.3.0:
   resolved "https://registry.yarnpkg.com/check-types/-/check-types-7.4.0.tgz#0378ec1b9616ec71f774931a3c6516fad8c152f4"
   integrity sha512-YbulWHdfP99UfZ73NcUDlNJhEIDgm9Doq9GhpyXbF+7Aegi3CVV7qqMCKTTqJxlvEvnQBp9IA+dxsGN6xK/nSg==
 
-chokidar@^2.0.2, chokidar@^2.1.5:
+chokidar@^2.0.2:
   version "2.1.6"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.6.tgz#b6cad653a929e244ce8a834244164d241fa954c5"
   integrity sha512-V2jUo67OKkc6ySiRpJrjlpJKl9kDuG+Xb8VgsGzb+aEouhgS1D0weyPU4lEzdAcsCAvrih2J2BqyXqHWvVLw5g==
@@ -8667,13 +8667,13 @@ react-static-plugin-sitemap@7.0.10:
   resolved "https://registry.yarnpkg.com/react-static-plugin-sitemap/-/react-static-plugin-sitemap-7.0.10.tgz#a7db197a5efe9a7ed085f290eca09f960b6906b9"
   integrity sha512-biaVICu7Jmu6qwXiW4cUZsSdLAT2N/YbggvKDYD7yEwZ+ShSQpTh95hYM3tKCCwOlGLXq1Mm/KNOPTEG0j0QlA==
 
-react-static-plugin-source-filesystem@7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/react-static-plugin-source-filesystem/-/react-static-plugin-source-filesystem-7.1.0.tgz#41ed385f6b01a4c53bebd918281a7bcb03423e85"
-  integrity sha512-HI7yVBNDTQz5aYsFWJfTUsCgOVjUU9+s+vLPEd8BxeqGAJ0TPKymkmKJJLJYFo8TGm20Wn0yqXiEvuXEOYDoEg==
+react-static-plugin-source-filesystem@7.2.3:
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/react-static-plugin-source-filesystem/-/react-static-plugin-source-filesystem-7.2.3.tgz#8ce4b9e122d075f217899f44ec08db0747acc02c"
+  integrity sha512-pUf3J4LPFkVsVHlk7nj1xZkuSZPLqf5QhSgNtDtotfqY6Jslrv/NoZJFlvHCNZdOsVVFEfnAPN6VGlJzHtELkw==
   dependencies:
-    chokidar "^2.1.5"
-    glob "^7.1.3"
+    chokidar "^3.0.2"
+    glob "^7.1.4"
 
 react-static-plugin-styled-components@7.2.2:
   version "7.2.2"
