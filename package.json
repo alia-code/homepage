@@ -34,7 +34,7 @@
     "react-helmet": "5.2.1",
     "react-modal": "3.11.2",
     "react-static": "7.2.3",
-    "react-tooltip": "4.0.5",
+    "react-tooltip": "4.1.1",
     "styled-components": "5.0.1"
   },
   "devDependencies": {
