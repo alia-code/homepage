@@ -43,7 +43,7 @@
     "dotenv-extended": "2.7.1",
     "node-sass": "4.13.1",
     "prop-types": "15.7.2",
-    "react-hot-loader": "4.12.19",
+    "react-hot-loader": "4.12.20",
     "react-static-plugin-reach-router": "7.2.3",
     "react-static-plugin-sass": "7.2.2",
     "react-static-plugin-sitemap": "7.0.10",
