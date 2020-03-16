@@ -8708,10 +8708,13 @@ react-static-plugin-sass@7.2.2:
     sass-loader "^7.2.0"
     semver "^6.3.0"
 
-react-static-plugin-sitemap@7.0.10:
-  version "7.0.10"
-  resolved "https://registry.yarnpkg.com/react-static-plugin-sitemap/-/react-static-plugin-sitemap-7.0.10.tgz#a7db197a5efe9a7ed085f290eca09f960b6906b9"
-  integrity sha512-biaVICu7Jmu6qwXiW4cUZsSdLAT2N/YbggvKDYD7yEwZ+ShSQpTh95hYM3tKCCwOlGLXq1Mm/KNOPTEG0j0QlA==
+react-static-plugin-sitemap@7.2.3:
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/react-static-plugin-sitemap/-/react-static-plugin-sitemap-7.2.3.tgz#d3d9d53f419c33824cb694b2bd3b7de187e19a23"
+  integrity sha512-2gmFVONiBq3sLsS6qZv7thzsl4EnlKDY4+JhX2hyfFJCUPjBQ12Jh5On7C8jjCejrxaamtsaU3vYl9n5OrvVLg==
+  dependencies:
+    chalk "^2.4.2"
+    fs-extra "^8.1.0"
 
 react-static-plugin-source-filesystem@7.2.3:
   version "7.2.3"
