@@ -8806,12 +8806,13 @@ react-static@7.2.3:
     webpack-flush-chunks "^2.0.3"
     webpack-node-externals "^1.7.2"
 
-react-tooltip@4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/react-tooltip/-/react-tooltip-4.1.2.tgz#bc9f8620759518f6ef294198d082097e968d549c"
-  integrity sha512-AXQ5uumN/ZpPO6mlPrV52S1As1OOHhyp3pinWFEtTlpKojS8+CL5r/n0oiO8GR5hWqrvEONU34NEF01N2ODwqg==
+react-tooltip@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/react-tooltip/-/react-tooltip-4.2.0.tgz#1e38a335e61e7584652512eaf7321df2ef219f11"
+  integrity sha512-6P6oeKgkHrN6KAsoXoQr+tKw94znt8e/pvIAJsZ3QwD79z0B6HdZBMjk86xftVddjsLV8GAj86daNwcq9nfc0A==
   dependencies:
     prop-types "^15.7.2"
+    uuid "^7.0.3"
 
 react-universal-component@^4.0.0:
   version "4.0.0"
@@ -10963,6 +10964,11 @@ uuid@^3.0.1, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
+
+uuid@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.3.tgz#c5c9f2c8cf25dc0a372c4df1441c41f5bd0c680b"
+  integrity sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==
 
 v8-compile-cache@^2.0.3, v8-compile-cache@^2.1.0:
   version "2.1.0"
